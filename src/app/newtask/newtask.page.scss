@@ -1,0 +1,44 @@
+.main-container {
+    padding: 1rem;
+}
+
+.sidemenubtn-container p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+ion-content {
+    --ion-background-color: #BB98DF;
+}
+
+ion-back-button {
+    --color: white;
+}
+
+.roundedtopcard-container {
+    background-color: white;
+    padding: 2rem;
+    border-top-left-radius: 2.188rem;
+    border-top-right-radius: 2.188rem;
+    min-height:100vh;
+}
+
+ion-input, ion-textarea {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: -0.938rem;
+}
+
+ion-button {
+    margin-top: 1rem;
+    float: right;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.tasks-container p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}

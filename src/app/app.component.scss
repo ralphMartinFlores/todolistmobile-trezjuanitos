@@ -1,0 +1,27 @@
+.logoplaceholder {
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+ion-content {
+    ion-icon {
+        color: #BB98DF;
+    }
+
+    ion-label {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.appinfo {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 25px;
+}

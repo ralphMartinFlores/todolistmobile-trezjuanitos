@@ -8,8 +8,36 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'tasks',
     pathMatch: 'full'
+  },
+  {
+    path: 'tasks',
+    loadChildren: () => import('./tasks/tasks.module').then( m => m.TasksPageModule)
+  },
+  {
+    path: 'viewtasks',
+    loadChildren: () => import('./viewtasks/viewtasks.module').then( m => m.ViewtasksPageModule)
+  },
+  {
+    path: 'newtask',
+    loadChildren: () => import('./newtask/newtask.module').then( m => m.NewtaskPageModule)
+  },
+  {
+    path: 'completedtasks',
+    loadChildren: () => import('./completedtasks/completedtasks.module').then( m => m.CompletedtasksPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
   },
 ];
 

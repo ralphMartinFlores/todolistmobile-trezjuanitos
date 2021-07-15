@@ -1,0 +1,47 @@
+.main-container {
+    padding: 1rem;
+}
+
+.sidemenubtn-container p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+ion-content {
+    --ion-background-color: #BB98DF;
+}
+
+ion-back-button {
+    --color: white;
+}
+
+.roundedtopcard-container {
+    background-color: white;
+    padding: 2rem;
+    border-top-left-radius: 2.188rem;
+    border-top-right-radius: 2.188rem;
+    min-height:100vh;
+}
+
+.tasks-container {
+    margin-top: 1rem;
+}
+
+.task {
+    border: 1px solid limegreen;
+    border-radius: 1.25rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(50,205,50, 0.1);
+
+    p {
+        margin: 0;
+        text-decoration: line-through;
+    }
+
+    p:first-of-type {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+}

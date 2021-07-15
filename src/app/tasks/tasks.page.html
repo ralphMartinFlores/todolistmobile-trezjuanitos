@@ -1,0 +1,49 @@
+<ion-content mode="md">
+  
+  <div class="main-container">
+    
+    <div class="sidemenubtn-container">
+      <ion-buttons slot="start">  
+        <ion-menu-button></ion-menu-button>
+        <p>Home</p> 
+      </ion-buttons> 
+    </div>
+
+  </div>
+
+  <div class="roundedtopcard-container animate__animated animate__slideInDown">
+
+    <div class="message">
+      <div class="message-text">
+        <p class="header">Hello, Sample User Name</p>
+        <p>What are you up to today?</p>
+      </div>
+      <div class="message-fab">
+        <ion-fab-button routerLink="/newtask"><ion-icon name="add"></ion-icon></ion-fab-button>
+      </div>
+    </div>
+
+    <div class="roundedtopcard-content" routerLink="/viewtasks">
+      <div class="flat-card">
+        <p>My Tasks</p>
+        <img src="../../assets/images/view-tasks.png">
+      </div>
+    </div>
+
+    <div class="roundedtopcard-content" routerLink="/newtask">
+      <div class="flat-card">
+        <p>Create New Task</p>
+        <img src="../../assets/images/add-tasks.png">
+      </div>
+    </div>
+
+    <div class="roundedtopcard-content" routerLink="/completedtasks">
+      <div class="flat-card">
+        <p>Completed Tasks</p>
+        <img src="../../assets/images/completed-tasks.png">
+      </div>
+    </div>
+
+  </div>
+
+</ion-content>
